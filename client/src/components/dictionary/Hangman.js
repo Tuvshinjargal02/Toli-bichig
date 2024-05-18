@@ -13,9 +13,9 @@ const Hangman = ({ words: { words, loading } }) => {
     <Fragment>
       {!loading && (
         <div id='hangman' data-target='Hangman' className='game flex-column align-items-center'>
-          <h2 className='heading-silver mt-5 mb-3'>Hangman</h2>
+          <h2 className='heading-silver mt-5 mb-3'>Дүүжлүүр</h2>
           <div className='d-flex flex-column justify-content-center align-items-center box'>
-            <p className='text-secondary'>Translate the word  - <span className='hang-word'></span></p>
+            <p className='text-secondary'>Үгийг орчуул  - <span className='hang-word'></span></p>
             <div className="game-container">
               <svg height="250" width="200" className="figure-container">
                 {/* Rod */}
@@ -47,7 +47,7 @@ const Hangman = ({ words: { words, loading } }) => {
             <div className="popup-container" id="popup-container">
               <div className="popup box box-silver-2">
                 <h2 id="final-message" className='text-silver 2'>hhh</h2>
-                <button id="play-button" className='btn btn-silver'>Continue</button>
+                <button id="play-button" className='btn btn-silver'>Үргэлжлүүл</button>
               </div>
             </div>
       

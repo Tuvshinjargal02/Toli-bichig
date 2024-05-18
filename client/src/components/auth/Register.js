@@ -46,7 +46,7 @@ const Register = ({ register, isAuthenticated }) => {
   return (
     <form id='register-form' onSubmit={(e) => onSubmit(e)}>
       <h3 className='text-center text-silver-2 mb-4'>
-        FREE REGISTRATION
+        БҮРТГҮҮЛЭХ
         <Alert/>
       </h3>
       <div className='form-group'>
@@ -57,7 +57,7 @@ const Register = ({ register, isAuthenticated }) => {
           name='name'
           value={name}
           onChange={(e) => onChange(e)}
-          placeholder='Username'
+          placeholder='Хэрэглэгчийн нэр'
         />
         <small>Error message</small>
       </div>
@@ -69,7 +69,7 @@ const Register = ({ register, isAuthenticated }) => {
           name='email'
           value={email}
           onChange={(e) => onChange(e)}
-          placeholder='Email'
+          placeholder='Имэйл'
         />
         <small>Error message</small>
       </div>
@@ -81,7 +81,7 @@ const Register = ({ register, isAuthenticated }) => {
           name='password'
           value={password}
           onChange={(e) => onChange(e)}
-          placeholder='Password'
+          placeholder='Нууц үг'
         />
         <small>Error message</small>
       </div>
@@ -93,12 +93,12 @@ const Register = ({ register, isAuthenticated }) => {
           name='password2'
           value={password2}
           onChange={(e) => onChange(e)}
-          placeholder='Confirm password'
+          placeholder='Нууц үг давтах'
         />
         <small>Error message</small>
       </div>
       <div className='form-group'>
-        <input className='btn btn-block btn-silver' type='submit' value='Sing Up' />
+        <input className='btn btn-block btn-silver' type='submit' value='Бүртгүүлэх' />
       </div>
     </form>
   );

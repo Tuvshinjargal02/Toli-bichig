@@ -37,16 +37,16 @@ const Skeleton = ({words: {words, loading}}) => {
           <div className='col-xl-3 col-lg-2'>
             <aside id='aside-nav'>
               <nav>
-                <h2 className='heading-silver pl-3 mb-2'>Games and Practice</h2>
+                <h2 className='heading-silver pl-3 mb-2'>Сонирхолтой тоглоомууд</h2>
                 <ul className='list-group list-group-flush box box-silver-2'>
                   <li className='list-group-item'>
                     <a className='text-silver' href='!#' onClick={(e) => changeGame(e, loading)}>
-                      Vocabulary
+                      Үгсийн сан
                     </a>
                   </li>
                   <li className='list-group-item'>
                     <a className='text-silver' href='!#' onClick={(e) =>onClick(e, loading)}>
-                      Memory Cards
+                      Үг тогтоох карт
                     </a>
                   </li>
                   <li className='list-group-item text-silver'>
@@ -56,12 +56,12 @@ const Skeleton = ({words: {words, loading}}) => {
                   </li>
                   <li className='list-group-item text-silver'>
                     <a className='text-silver' href='!#' onClick={(e) =>onClick(e, loading)}>
-                      Translate on speed
+                      Хурдтай орчуулга
                     </a>
                   </li>
                   <li className='list-group-item text-silver'>
                     <a className='text-silver' href='!#' onClick={(e) =>onClick(e, loading)}>
-                      Listen and write
+                      Сонсож бас бичих
                     </a>
                   </li>
                 </ul>

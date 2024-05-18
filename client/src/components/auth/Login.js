@@ -47,7 +47,7 @@ const Login = ({ login, isAuthenticated }) => {
 
   return (
     <form id='register-form' onSubmit={(e) => onSubmit(e)}>
-      <h3 className='text-center text-silver-2 mb-4'>Sign In <Alert/></h3>
+      <h3 className='text-center text-silver-2 mb-4'>Нэвтрэх<Alert/></h3>
       <div className='form-group'>
         <input
           id='email'
@@ -56,7 +56,7 @@ const Login = ({ login, isAuthenticated }) => {
           name='email'
           value={email}
           onChange={(e) => onChange(e)}
-          placeholder='Email'
+          placeholder='Имэйл'
         />
       <small>Error text</small>
       </div>
@@ -68,13 +68,13 @@ const Login = ({ login, isAuthenticated }) => {
           name='password'
           value={password}
           onChange={(e) => onChange(e)}
-          placeholder='Password'
+          placeholder='Нууц үг'
         />
       <small>Error text</small>
 
       </div>
       <div className='form-group'>
-        <input className='btn btn-block btn-silver' type='submit' value='Login' />
+        <input className='btn btn-block btn-silver' type='submit' value='Нэвтрэх' />
       </div>
     </form>
   );

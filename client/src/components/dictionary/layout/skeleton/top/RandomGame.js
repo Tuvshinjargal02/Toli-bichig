@@ -17,33 +17,33 @@ const RandomGame = () => {
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <div className='carousel-caption d-none d-md-block'>
-              <h3 className='text-silver'>Memory Cards</h3>
+              <h3 className='text-silver'>Санах ойн карт</h3>
               <p className='text-silver'>
-                Read the word, translate, check your answer on the other side of the card
+                Үгээ уншиж, орчуулж, үгийн орчуулгыг зөв бодсон эсэхээ картны нөгөө талаас хараарай.
               </p>
             </div>
           </div>
           <div className='carousel-item'>
             <div className='carousel-caption d-none d-md-block'>
-              <h3 className='text-silver'>Hangman</h3>
+              <h3 className='text-silver'>Дүүжлүүр</h3>
               <p className='text-silver'>
-                Try to write a word without mistakes to save a poor guy
+                Алдаа гаргахгүйгээр хөөрхий залууг авраарай.
               </p>
             </div>
           </div>
           <div className='carousel-item'>
             <div className='carousel-caption d-none d-md-block'>
-              <h3 className='text-silver'>Translate on Speed</h3>
+              <h3 className='text-silver'>Хурдан орчуулга</h3>
               <p className='text-silver'>
-                Translate as many words as you can on given time
+                Өгөгдсөн хугацаанд багтааж үгсээ орчуулаарай.
               </p>
             </div>
           </div>
           <div className='carousel-item'>
             <div className='carousel-caption d-none d-md-block'>
-              <h3 className='text-silver'>Listen and Write</h3>
+              <h3 className='text-silver'>Сонсож бич</h3>
               <p className='text-silver'>
-                Challenge your listening skills and write a correct word
+                Сонсох чадвараа ашиглаж зөв орчуулгыг бичнэ үү.
               </p>
             </div>
           </div>
