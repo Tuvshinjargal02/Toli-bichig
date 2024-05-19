@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://ariukhai:Bumbuulei0202@web.pgs2xed.mongodb.net/",
+  "mongoURI": "mongodb+srv://ariukhai:Bumbuulei0202@ac-tmslbtt.pgs2xed.mongodb.net/admin?replicaSet=atlas-sbj9e9-shard-0&ssl=true",
   "jwtsecret": "witcher"
 }
